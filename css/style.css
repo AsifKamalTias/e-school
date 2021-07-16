@@ -94,3 +94,28 @@ h1.motto{
         height: 475px;
     }
 }
+
+img.feature-img{
+    width: 70px;
+    height: 85px;
+    padding: 10px;
+}
+
+.feature-item{
+    max-height: 270px;
+    text-align: center;
+    padding: 5px;
+    background-color: #F8FFFB;
+    border-radius: 3px;
+    margin: 5px 10px;
+    
+}
+
+.small-text{
+    font-size: 15px;
+}
+
+.feature-item-special{
+    background-color: white;
+    box-shadow: 3px 3px 8px gray;
+}
