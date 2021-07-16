@@ -46,3 +46,51 @@ header{
     background-image: url(
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+.real-btn{
+    display: inline-block;
+    background-color: #21B573;
+    border-radius: 20px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.real-btn:hover{
+    color: white;
+    background-color: #109157;
+}
+
+p.header-q{
+    color: orangered;
+}
+
+.header-img img{
+    width: 100%;
+}
+
+.real-color{
+    color: #21B573;
+}
+
+h1.motto{
+    font-weight: 1000;
+}
+
+.color-grey{
+    color: #6C6B6B;
+}
+
+@media only screen and (max-width: 992px){
+    .header-img{
+        display: none;
+    }
+    .header-text{
+        width: 100%;
+    }
+
+    header{
+        height: 475px;
+    }
+}
