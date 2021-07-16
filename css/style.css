@@ -74,26 +74,15 @@ p.header-q{
     color: #21B573;
 }
 
-h1.motto{
-    font-weight: 1000;
+.motto{
+    font-weight: 700;
 }
 
 .color-grey{
     color: #6C6B6B;
 }
 
-@media only screen and (max-width: 992px){
-    .header-img{
-        display: none;
-    }
-    .header-text{
-        width: 100%;
-    }
 
-    header{
-        height: 475px;
-    }
-}
 
 img.feature-img{
     width: 70px;
@@ -118,4 +107,134 @@ img.feature-img{
 .feature-item-special{
     background-color: white;
     box-shadow: 3px 3px 8px gray;
+}
+.feature{
+    margin-top: 100px;
+}
+
+.section-heading{
+    margin-bottom: 50px;
+}
+
+.online-courses{
+    margin-top: 100px;
+}
+
+.online-courses h1{
+    text-align: center;
+    font-weight: 700;
+    color: #413960;
+}
+
+.card-style{
+    border: none;
+    border-radius: 20px;
+    margin: 0 20px;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.card-bottom{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date img{
+    width: 30px;
+}
+
+.date p{
+    display: inline-block;
+}
+
+.seat img{
+    width: 30px;
+}
+
+.seat p{
+    display: inline-block;
+}
+
+.testimonial{
+    margin-top: 100px;
+}
+
+.testimonial h1{
+    text-align: center;
+    font-weight: 700;
+    color: #413960;
+}
+
+.testimonial .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.man{
+    display: inline;
+    width: 100px;
+    margin: 30px;
+}
+
+.test-text{
+    /* display: inline; */
+    margin: 30px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 992px){
+    .header-img{
+        display: none;
+    }
+    .header-text{
+        width: 100%;
+    }
+
+    header{
+        height: 475px;
+    }
+
+    .testimonial .container{
+        flex-direction: column;
+    }
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+footer{
+    background-color: #282531;
+    margin-top: 100px;
+}
+
+footer h4{
+    color: white;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+footer a:hover{
+    color: #21B573;
 }
